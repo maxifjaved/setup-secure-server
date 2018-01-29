@@ -47,7 +47,7 @@ Steps to follow:
      - `sudo rm /etc/nginx/conf.d/default.conf`
      - `sudo vim /etc/nginx/conf.d/digitaldot.io.conf`
      - Add follwing content to the digitaldot.io.conf file
-     ```
+```
         # Remove server identifiers to help against enumeration
         server_tokens off;
 
@@ -127,8 +127,7 @@ Steps to follow:
                 proxy_redirect  off;
             }
         }
-
-     ```
+```
  - `sudo /etc/init.d/nginx restart` Restart your nginx service.
  
  - Test your securtiy at [SSL Labs](https://www.ssllabs.com/ssltest/)
