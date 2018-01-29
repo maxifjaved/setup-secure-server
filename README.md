@@ -129,3 +129,9 @@ Steps to follow:
         }
 
 ```
+ - `sudo /etc/init.d/nginx restart` Restart your nginx service.
+ 
+ - Test your securtiy at [SSL Labs](https://www.ssllabs.com/ssltest/)
+ 
+ 
+ ## Enjoy your application is up that is runnning on port 2765
