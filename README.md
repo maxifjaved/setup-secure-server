@@ -76,8 +76,8 @@ Steps to follow:
 
             # Define where to find the certificates
             # These will be under the letsencrypt folder 
-            ssl_certificate      /etc/letsencrypt/live/digitaldot.io/fullchain.pem;
-            ssl_certificate_key  /etc/letsencrypt/live/digitaldot.io/privkey.pem;
+            ssl_certificate      /etc/letsencrypt/live/www.digitaldot.io/fullchain.pem;
+            ssl_certificate_key  /etc/letsencrypt/live/www.digitaldot.io/privkey.pem;
 
             # Cache SSL handshakes
             ssl_session_cache shared:SSL:50m;
